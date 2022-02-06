@@ -32,7 +32,8 @@ def login():
 
 @app.route('/signup')
 def signup():
-    return render_template('signup.html')
+    form = RegisterForm()
+    return render_template('signup.html', form = form)
 
 @app.route('/dashboard')
 def dashboard():
