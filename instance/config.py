@@ -1,1 +1,2 @@
-SECRET_KEY='Thisisnotsupposedtobepublic'
+class secret:
+ SECRET_KEY='Thisisnotsupposedtobepublic'
